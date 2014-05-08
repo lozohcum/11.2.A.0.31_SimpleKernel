@@ -3,3 +3,8 @@ SimpleKernelX changelog:
 *1.5
 - 11.2.A.0.31 source
 - switched to linaro toolchain
+- OC CPU +0.5GHz; GPU OC
+- Entrophy tweak
+- CleanCache ON
+- SWAP and zRam ON
+- VM READAHEAD set to 1024kbs
