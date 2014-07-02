@@ -1,4 +1,6 @@
 SimpleKernelX changelog:
+*1.6
+- free up some RAM from logger service
 
 *1.5
 - 11.2.A.0.31 source
