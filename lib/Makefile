@@ -1,6 +1,8 @@
 #
 # Makefile for some libs needed in the kernel.
 #
+KBUILD_CFLAGS += -w
+KBUILD_CFLAGS += -Wno-error=uninitialized
 
 ifdef CONFIG_FUNCTION_TRACER
 ORIG_CFLAGS := $(KBUILD_CFLAGS)

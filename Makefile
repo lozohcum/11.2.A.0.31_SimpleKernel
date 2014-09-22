@@ -358,6 +358,9 @@ CFLAGS_KERNEL	=
 AFLAGS_KERNEL	=
 CFLAGS_GCOV	= -fprofile-arcs -ftest-coverage
 
+# lozohcum
+KBUILD_CFLAGS += -w
+KBUILD_CFLAGS += -Wno-error=uninitialized
 
 # Use LINUXINCLUDE when you must reference the include/ directory.
 # Needed to be compatible with the O= option

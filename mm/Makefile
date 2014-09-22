@@ -1,6 +1,8 @@
 #
 # Makefile for the linux memory manager.
 #
+KBUILD_CFLAGS += -w
+KBUILD_CFLAGS += -Wno-error=uninitialized
 
 mmu-y			:= nommu.o
 mmu-$(CONFIG_MMU)	:= fremap.o highmem.o madvise.o memory.o mincore.o \
